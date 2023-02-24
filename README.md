@@ -1,1 +1,1 @@
-# PA---Programare-avansata
+# PA - Programare Avansata
