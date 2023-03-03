@@ -1,0 +1,4 @@
+enum LocationType {
+    CITIES,
+    AIRPORTS
+}
