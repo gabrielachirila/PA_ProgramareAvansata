@@ -1,4 +1,4 @@
-public class homework1 {
+public class homework {
     
     public static void populateMatrix(int [][] matrix, int n)
     {
