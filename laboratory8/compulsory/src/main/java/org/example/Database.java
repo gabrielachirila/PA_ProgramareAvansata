@@ -14,6 +14,8 @@ public class Database {
     }
 
     public static Connection getConnection() {
+        if (connection == null)
+            createConnection();
         return connection;
     }
 
@@ -22,8 +24,7 @@ public class Database {
             connection = DriverManager.getConnection(URL, USER, PASSWORD);
             connection.setAutoCommit(false);
         } catch (SQLException e) {
-            System.err.println(e);
-        }
+            System.err.println("Cannot connect to DB: " + e); }
     }
 
     public static void closeConnection() {
