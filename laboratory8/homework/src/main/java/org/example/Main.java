@@ -64,7 +64,7 @@ public class Main {
 
             RollingStoneAlbum importer = new RollingStoneAlbum();
             importer.importAlbums("C:/Users/gaby/OneDrive/Desktop/albumlist.csv");
-            //importer.printAlbums();
+            importer.printAlbums();
 
             Database.closeConnection();
 
