@@ -3,7 +3,7 @@ CREATE TABLE albums (
   release_year INTEGER NOT NULL,
   title VARCHAR(100) NOT NULL,
   artist VARCHAR(100) NOT NULL,
-  genre VARCHAR(100) NOT NULL
+  genre VARCHAR(100) 
 );
 
 CREATE TABLE artists (
